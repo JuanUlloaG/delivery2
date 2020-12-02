@@ -1,0 +1,83 @@
+{
+    "name": "delivery",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "android": "react-native run-android",
+        "ios": "react-native run-ios",
+        "start": "react-native start",
+        "test": "jest",
+        "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    },
+    "rnpm": {
+        "assets": [
+            "./src/app/assets/fonts"
+        ]
+    },
+    "dependencies": {
+        "@react-native-community/async-storage": "^1.11.0",
+        "@react-native-community/geolocation": "^2.0.2",
+        "@react-native-community/masked-view": "^0.1.10",
+        "@react-native-community/picker": "^1.6.5",
+        "@react-native-community/viewpager": "^4.1.0",
+        "@react-navigation/bottom-tabs": "^5.5.2",
+        "@react-navigation/native": "^5.5.1",
+        "@react-navigation/stack": "^5.5.1",
+        "@types/react-native-vector-icons": "^6.4.5",
+        "@types/react-redux": "^7.1.9",
+        "add": "^2.0.6",
+        "axios": "^0.19.2",
+        "bcryptjs": "^2.4.3",
+        "moment": "^2.27.0",
+        "react": "16.13.1",
+        "react-native": "0.63.1",
+        "react-native-bluetooth-escpos-printer": "^0.0.5",
+        "react-native-camera": "^3.31.0",
+        "react-native-gesture-handler": "^1.6.1",
+        "react-native-image-helper": "^0.0.3",
+        "react-native-maps": "^0.27.1",
+        "react-native-maps-directions": "^1.8.0",
+        "react-native-notification-banner": "^2.0.0",
+        "react-native-print": "^0.6.0",
+        "react-native-reanimated": "^1.9.0",
+        "react-native-responsive-fontsize": "^0.4.3",
+        "react-native-responsive-screen": "^1.4.1",
+        "react-native-safe-area-context": "^3.0.6",
+        "react-native-screens": "^2.9.0",
+        "react-native-swipe-render": "^3.1.1",
+        "react-native-vector-icons": "^6.6.0",
+        "react-redux": "^7.2.0",
+        "redux": "^4.0.5",
+        "redux-devtools": "^3.5.0",
+        "redux-thunk": "^2.3.0",
+        "yarn": "^1.22.4"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.6.2",
+        "@babel/runtime": "^7.6.2",
+        "@react-native-community/eslint-config": "^1.0.0",
+        "@types/jest": "^24.0.24",
+        "@types/react-native": "^0.62.0",
+        "@types/react-test-renderer": "16.9.2",
+        "@typescript-eslint/eslint-plugin": "^2.27.0",
+        "@typescript-eslint/parser": "^2.27.0",
+        "babel-jest": "^24.9.0",
+        "eslint": "^6.5.1",
+        "jest": "^24.9.0",
+        "metro-react-native-babel-preset": "^0.58.0",
+        "prettier": "^2.0.4",
+        "react-test-renderer": "16.11.0",
+        "typescript": "^3.8.3"
+    },
+    "jest": {
+        "preset": "react-native",
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js",
+            "jsx",
+            "json",
+            "node"
+        ]
+    }
+}
